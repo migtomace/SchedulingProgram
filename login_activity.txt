@@ -1,0 +1,10 @@
+Nov 02, 2020 9:46:17 PM Database.UserDB isCredentials
+INFO: test logged in successful.
+Nov 02, 2020 9:51:21 PM Database.UserDB isCredentials
+INFOS: test logged in successful.
+Nov 12, 2020 5:23:18 PM Database.UserDB isCredentials
+INFO: test logged in successful.
+Nov 12, 2020 6:58:53 PM Database.UserDB isCredentials
+INFO: test logged in successful.
+Nov 12, 2020 7:18:08 PM Database.UserDB isCredentials
+INFO: test logged in successful.

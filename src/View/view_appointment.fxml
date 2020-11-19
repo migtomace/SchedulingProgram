@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="558.0" prefWidth="486.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox layoutX="17.0" layoutY="31.0" prefHeight="460.0" prefWidth="445.0" style="-fx-border-color: #111;">
+         <children>
+            <Text fx:id="aidT" layoutX="16.0" layoutY="332.0" lineSpacing="1.5" strokeType="OUTSIDE" strokeWidth="0.0" text="Appointment ID" wrappingWidth="300.0">
+               <font>
+                  <Font size="15.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </Text>
+            <Text fx:id="cidT" layoutX="16.0" layoutY="352.0" lineSpacing="1.5" strokeType="OUTSIDE" strokeWidth="0.0" text="Customer ID" wrappingWidth="300.0">
+               <font>
+                  <Font size="15.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+            </Text>
+            <Text fx:id="nameT" lineSpacing="1.5" strokeType="OUTSIDE" strokeWidth="0.0" text="Customer Name" wrappingWidth="300.0">
+               <font>
+                  <Font size="15.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+            </Text>
+            <Text fx:id="titleT" lineSpacing="1.5" strokeType="OUTSIDE" strokeWidth="0.0" text="Title" wrappingWidth="300.0">
+               <font>
+                  <Font size="15.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+            </Text>
+            <Text fx:id="descriptionT" lineSpacing="1.5" strokeType="OUTSIDE" strokeWidth="0.0" text="Description" wrappingWidth="300.0">
+               <font>
+                  <Font size="15.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+            </Text>
+            <Text fx:id="locationT" lineSpacing="1.5" strokeType="OUTSIDE" strokeWidth="0.0" text="Location" wrappingWidth="300.0">
+               <font>
+                  <Font size="15.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+            </Text>
+            <Text fx:id="contactT" lineSpacing="1.5" strokeType="OUTSIDE" strokeWidth="0.0" text="Contact" wrappingWidth="300.0">
+               <font>
+                  <Font size="15.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+            </Text>
+            <Text fx:id="typeT" lineSpacing="1.5" strokeType="OUTSIDE" strokeWidth="0.0" text="Type" wrappingWidth="300.0">
+               <font>
+                  <Font size="15.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+            </Text>
+            <Text fx:id="dateT" lineSpacing="1.5" strokeType="OUTSIDE" strokeWidth="0.0" text="Date" wrappingWidth="300.0">
+               <font>
+                  <Font size="15.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+            </Text>
+            <Text fx:id="startT" lineSpacing="1.5" strokeType="OUTSIDE" strokeWidth="0.0" text="Start" wrappingWidth="300.0">
+               <font>
+                  <Font size="15.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+            </Text>
+            <Text fx:id="endT" lineSpacing="1.5" strokeType="OUTSIDE" strokeWidth="0.0" text="End" wrappingWidth="300.0">
+               <font>
+                  <Font size="15.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+            </Text>
+         </children>
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+      </VBox>
+      <Button fx:id="doneBtn" layoutX="363.0" layoutY="505.0" mnemonicParsing="false" onAction="#setDoneBtn" prefHeight="30.0" prefWidth="100.0" text="Done" />
+   </children>
+</AnchorPane>
