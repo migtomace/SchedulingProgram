@@ -12,10 +12,10 @@ import java.sql.*;
 
 public class ConnectDB {
 
-    static final String DB_NAME = "WJ06YUD";
-    static final String DB_URL = "jdbc:mysql://wgudb.ucertify.com:3306/" + DB_NAME;
-    static final String USER = "U06YUD";
-    static final String PASS = "53688904848";
+    static final String DB_NAME = "DB_NAME"; // Match connection parameters to database
+    static final String DB_URL = "DB_URL" + DB_NAME;
+    static final String USER = "USER";
+    static final String PASS = "PASS";
     static Connection connection;
 
     /**Creates connection
